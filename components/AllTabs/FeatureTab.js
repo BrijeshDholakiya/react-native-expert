@@ -1,5 +1,5 @@
 import classes from "../projects/css/ProjectDetail.module.css";
-import styles from "../../components/features/css/featureCardContainer.module.css";
+import styles from "../../components/features/css/FeatureCardContainer.module.css";
 import FeaturesCardBlack from "../projects/FeaturesCardBlack";
 
 const FeatureTab = ({ features }) => {

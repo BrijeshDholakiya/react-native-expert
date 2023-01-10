@@ -7,7 +7,7 @@ import Layout from "../../components/Layout";
 import cover_image from "../../public/images/projects/mainPrjct.svg";
 import { description, projectData } from "../../constants/ProjectCardData";
 import { featuresData as features } from "../../constants/featureCardData";
-import { getProjectDetailsById } from "../../Api/projects";
+// import { getProjectDetailsById } from "../../Api/projects";
 
 // export const getServerSideProps = async (context) => {
 //   const data = await getProjectDetailsById(context.query.slug);

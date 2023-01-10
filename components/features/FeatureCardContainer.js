@@ -1,4 +1,4 @@
-import classes from "./css/featureCardContainer.module.css";
+import classes from "./css/FeatureCardContainer.module.css";
 
 import FeaturesCard from "./Layout/FeaturesCard";
 import { featuresData } from "../../constants/featureCardData";
