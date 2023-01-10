@@ -1,0 +1,50 @@
+.servicesContainer{
+    background-color: #F5F5F5;
+    padding: 0 220px;
+}
+
+.serviceCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.customizeBtn{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.customizeBtn button{
+    min-width: 25%;
+    height: 4rem;
+    margin: 2% auto 5%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1754px){
+    .servicesContainer{
+        padding: 0 120px;
+    }
+}
+
+@media only screen and (max-width: 1028px){
+    .servicesContainer{
+        padding: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 894px){
+    .servicesContainer{
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 643px){
+    .customizeBtn button{
+        min-width: 83%;
+        height: 4rem;
+        margin: 5% auto 10%;
+        text-align: center;
+    }
+}

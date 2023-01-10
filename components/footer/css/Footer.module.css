@@ -1,0 +1,225 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 220px;
+  position: relative;
+  /* background-color: #F8FDFF; */
+}
+.footerContent {
+  width: 35%;
+  margin-left: 40%;
+  padding: 40px 0 50px;
+}
+
+.footerImg {
+  width: 40%;
+  flex-shrink: 0;
+  position: absolute;
+  top: 50px;
+  left: 220px;
+}
+
+.footertextContainer h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #142032;
+  text-transform: capitalize;
+}
+
+.footertextContainer p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #142032;
+  opacity: 0.5;
+}
+
+.skypeContainer {
+  min-width: 50%;
+  min-height: 10%;
+}
+
+.skypeContainer span {
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 30px;
+  color: #142032;
+  display: inline-flex;
+}
+
+.skypeContainer span:hover {
+  text-decoration: none;
+  font-style: italic;
+  color: #7432ff;
+}
+
+.commonContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 10%;
+}
+
+.iconContainer {
+  margin-top: 0.4rem;
+}
+
+.linkText {
+  margin-left: 0.8rem;
+}
+
+.linkText span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #142032;
+}
+
+@media only screen and (max-width: 1754px) {
+  .footerContainer {
+    padding: 50px 120px;
+  }
+}
+
+@media only screen and (max-width: 1556px) {
+  .footerContent {
+    width: 40%;
+    margin-left: 50%;
+  }
+}
+
+@media only screen and (max-width: 1394px) {
+  .footerContent {
+    width: 45%;
+    margin-left: 55%;
+  }
+
+  .footertextContainer h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .footertextContainer p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .skypeContainer a {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .footerImg {
+    width: 36%;
+    flex-shrink: 0;
+    flex-grow: 1;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .footerImg {
+    width: 40%;
+    top: 50px;
+    left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  .footerContainer {
+    padding: 50px 70px;
+  }
+
+  .footerImg {
+    width: 45%;
+    top: 50px;
+    left: 80px;
+  }
+}
+
+@media only screen and (max-width: 894px) {
+  .footerContainer {
+    padding: 50px 20px;
+  }
+
+  .footerImg {
+    width: 50%;
+    top: 50px;
+    left: 30px;
+  }
+}
+
+@media only screen and (max-width: 824px) {
+  .footerContainer {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footerImg {
+    width: 80%;
+    position: static;
+  }
+
+  .footerContent {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 0px;
+  }
+
+  .skypeContainer {
+    min-width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .skypeContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .commonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 382px) {
+  .footertextContainer h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .iconContainer {
+    min-width: 50px;
+  }
+
+  .linkText {
+    margin-left: 0rem;
+  }
+
+  .linkText a span {
+    font-size: 14px;
+  }
+}

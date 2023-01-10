@@ -1,0 +1,146 @@
+.titleContentContainer{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.bigTitle{
+    /* position: absolute; */
+    margin-top: 10%;
+    width: 50%;
+    margin-right: 10rem;
+}
+
+.bigTitle h1{
+    padding-right: 5%;
+}
+
+.bigTitle p{
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-right: 25%;
+}
+
+.bigTitle button{
+    border: 1px solid #7432FF;
+    background-color: #7432FF;
+    margin-top: 10px;
+}
+
+
+button.bookMeetingBtn{
+background-color: #FF6D04;
+border: 1px solid #ff6d04;
+margin-top: 1%;
+margin-left: 2%;
+}
+
+.bigTitle button:hover{
+    background-color: #9163f7;
+}
+button.bookMeetingBtn:hover{
+    background-color: #e26a15;
+}
+
+.titleImg{
+    margin-top: 13%;
+    height: 556px;
+    flex-shrink: 0;
+}
+
+
+@media only screen and (max-width: 1554px){
+    .bigTitle{
+        width: 120%;
+        margin-right: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 1478px){
+    .titleImg{
+        height: auto;
+        width: 80%;
+        flex-shrink: 1;
+    }
+  }
+
+
+  @media only screen and (max-width: 1068px){
+    .bigTitle p{
+        line-height: 20px;
+        margin-right: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 1028px){
+    .bigTitle{
+        width: 140%;
+    }
+  }
+
+
+@media only screen and (max-width: 894px){    
+    .bigTitle{
+        margin-top: 6%;
+        width: 160%;
+    }
+    
+    .titleImg{
+        margin-top: 9%;  
+        width: 140%;      
+        flex-shrink: 1;
+    }
+  }
+
+
+  @media only screen and (max-width: 718px){    
+    .bigTitle{
+    text-align: center;
+       width: 100%;
+       margin: 0 auto;
+    }
+
+    .titleContentContainer{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .titleImg{
+        margin: 3% auto;
+        opacity: 0.8;
+        width: 50%;      
+        flex-shrink: 5;
+    }
+
+    .bigTitle p{
+        margin-right: 3%;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+
+    .bigTitle p {
+        font-size: 10px;
+        line-height: 1rem;
+        margin-top: -2%;
+    }
+      .bigTitle button{
+          width: 60%;
+          height: 20%;
+      }
+    button.bookMeetingBtn{
+        margin-top: 5%;
+        margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .bigTitle button{
+        width: 80%;
+        height: 20%;
+    }
+  }

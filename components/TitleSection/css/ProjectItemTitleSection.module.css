@@ -1,0 +1,87 @@
+.blogTitleContainer{
+    text-align: center;
+    width: 40%;
+    margin: 7% auto;
+}
+
+.secondBlogContainer{
+    /* min-width: 70%; */
+    width: auto;
+}
+
+.blogTitleContainer p{
+    font-size: 18px;
+    line-height: 30px;    
+    letter-spacing: 0.005em;    
+    color: #FFFFFF;    
+    opacity: 0.6;
+}
+
+.titleButtonContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.titleButtonContainer button{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    width: 250px;
+}
+
+button.appTempBtn{
+    background-color: #FF6D04;  
+    margin-right: 0.5rem;
+}
+
+button.solutionBtn{
+    background-color: #7432FF; 
+    margin-left: 0.5rem; 
+}
+
+
+@media only screen and (max-width: 776px){
+    .titleButtonContainer{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .titleButtonContainer button{
+    line-height: 18px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    width: 250px;
+}
+
+button.appTempBtn{
+    margin-right: 0;
+    margin-bottom: 0.8rem;
+}
+    button.solutionBtn{
+        margin-left: 0rem; 
+    }
+}
+
+@media only screen and (max-width: 640px){
+    
+    .blogTitleContainer{
+        text-align: center;
+        width: 90%;
+        margin: 7% auto;
+    }
+
+    .titleButtonContainer button{
+        line-height: 18px;
+        color: #FFFFFF;
+        border-radius: 20px;
+        width: 220px;
+    }
+}

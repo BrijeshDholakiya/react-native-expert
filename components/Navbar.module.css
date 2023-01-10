@@ -1,0 +1,193 @@
+.navContainer{
+    display: flex;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.25);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #19004E;
+    margin: 0 220px;
+}
+
+ .navItems{
+    display: inline-block; 
+ }
+
+.navItems ul{
+    list-style-type: none;
+}
+
+.navItems ul li{
+    display: inline;
+    margin-left: 70px;
+    list-style-type: none;
+}
+
+.navItems ul li a{
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.navItems ul li a:hover{
+    font-weight: 600;
+}
+
+.navItems button{
+    background-color: #FF6D04;
+    border: 1px solid #FF6D04;
+}
+
+.navItems button:hover{
+    background-color: #e26a15;
+}
+
+.hamburg {
+    display: none;
+}
+
+.hamburg button{
+    border: none;
+    background-color: transparent;
+}
+
+.hambMenu ul li{
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+    color: black;
+    display: none;
+}
+
+.mobileMenu{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 1754px){
+   .navContainer{
+    margin: 0 120px;
+   }
+  }
+
+  @media only screen and (max-width: 1068px){
+    .navItems ul li{
+        margin-left: 40px;
+    }
+   }
+
+  @media only screen and (max-width: 1028px){
+    .navContainer{
+        margin: 0 70px;
+    }
+
+  }
+
+  @media only screen and (max-width: 894px){
+    .navContainer{
+        margin: 0 20px;
+    }
+  }
+
+   @media only screen and (max-width: 800px){
+   
+    .mobileMenu a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .hamburg{
+        color: white;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hambMenu{
+        
+        background-color: white;
+        width: 30%;
+        padding: 0px 50px 0 0;
+        margin-top: 30px;
+        position: absolute;
+        border-radius: 7px;
+        z-index: 2;
+        right: 20px;
+        display: block;       
+    }
+
+    .hambMenu ul{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+    }
+    
+    .hambMenu ul li{
+        list-style-type: none;
+        display: block;
+    }
+
+    .hambMenu ul li a{
+        color: #121212;
+    }
+
+    .hambMenu ul li a:hover{
+        text-decoration: underline;
+    }
+
+    .hambMenu ul li button{
+        background-color: #19004E;
+       color:white;
+       border: 1px solid #19004E;
+       outline: none;
+    }
+    .navItems{
+        display: none;
+    }
+   }
+
+
+   @media only screen and (max-width: 682px){
+    .hambMenu{
+        width: 35%;
+        padding: 0px 40px 0 0;
+    }
+  }
+    
+
+  @media only screen and (max-width: 556px){
+    .hambMenu{
+        width: 40%;
+        padding: 0px 40px 0 0;
+    }
+  }
+
+  @media only screen and (max-width: 482px){
+    .hambMenu{
+        width: 45%;
+        padding: 0px 40px 0 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 430px){
+    .hambMenu{
+        width: 50%;
+        padding: 0px 40px 0 0;
+    }
+  }
+
+  @media only screen and (max-width: 388px){
+    .hambMenu{
+        width: 55%;
+        padding: 0px 40px 0 0;
+    }
+  }
+
+  @media only screen and (max-width: 352px){
+    .hambMenu{
+        width: 65%;
+        padding: 0px 30px 0 0;
+    }
+  }
+

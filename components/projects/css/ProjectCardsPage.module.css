@@ -1,0 +1,185 @@
+.projectCardContainer{
+    margin: 0px 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectTitle{
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.projectTitle h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #142032;
+}
+
+.projectBtn{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.readMore{
+    width: 25%;
+}
+.readMore button{
+        margin: 0;
+        color: #fff;
+        border-radius: 30px;
+        background-color: #FF6D04;
+        border: 0.5px solid rgba(48, 106, 179, 0.4);
+        outline: none;
+        width: 180px;
+        padding: 15px 25px;
+} 
+
+.AppBtn button{
+    color: #000000;
+    margin: 0;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 180px;
+    padding: 15px 25px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: transparent;
+    border: 0.5px solid rgba(48, 106, 179, 0.4);
+    text-align: center;
+}
+
+.AppBtn button:hover, .AppBtn button:active{
+    background-color: #FF6D04;
+    color: #fff;
+}
+
+.loadMoreSection{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    margin: 1% auto 3%;
+    padding: 0 auto;
+}
+
+.readMore{
+    width: auto;
+}
+
+.loadMoreBtn{
+    display: flex;
+    justify-content: center;
+}
+
+button.loadMoreBtn{
+    width: 250px;
+    padding: 15px 0px 8px;
+    border: none;
+}
+
+@media only screen and (max-width: 1754px){
+    .projectCardContainer{
+        margin: 0px 120px;
+    }
+}
+
+@media only screen and (max-width: 1550px){
+    .projectTitle{
+        width: 100%;
+        margin: 3% auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1228px){
+    .projectBtn{
+        width: 70%;
+}
+}
+@media only screen and (max-width: 1028px){
+
+     .AppBtn button{
+        border-radius: 20px;
+        width: 150px;
+        padding: 8px 0px;
+        font-size: 12px;
+    }
+    
+    .projectCardContainer{
+        margin: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 894px){
+    .projectCardContainer{
+        margin: 0 20px;
+    }
+}
+
+
+@media only screen and (max-width: 870px){
+    .projectBtn{
+        width: 80%;
+}
+
+    .AppBtn button{
+       border-radius: 20px;
+       width: 130px;
+       padding: 8px 0px;
+       font-size: 12px;
+   }
+}
+
+
+
+@media only screen and (max-width: 602px){
+    .projectBtn{
+        width: 50%;
+        flex-wrap: wrap;
+}
+
+    .AppBtn button{
+       width: 130px;
+       padding: 3px 0px;
+       font-size: 12px;
+       flex: 0 0 50%;
+       margin-bottom: 0.8rem;
+   }
+}
+
+@media only screen and (max-width: 534px){
+    .projectBtn{
+        width: 40%;
+        flex-wrap: wrap;
+}
+
+    .AppBtn button{
+       width: 90px;
+   }
+}
+
+
+@media only screen and (max-width: 450px){
+    .projectBtn{
+        width: 40%;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+    .AppBtn button{
+       width: 200px;
+   }
+}

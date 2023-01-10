@@ -1,0 +1,57 @@
+.featureCard{
+    width: 400px;
+    height: 188px;
+    margin: 0rem 0 2rem;
+}
+
+.featureCard h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;    
+}
+
+.featureCard p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;    
+    
+}
+
+.featuresLogo{
+    max-height: 3.5rem;
+    padding-top: 2rem;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1450px){
+    .featureCard{
+        width: 350px;
+    }
+}
+
+
+@media only screen and (max-width: 1260px){
+    .featureCard{
+        width:270px;
+    }
+
+    .featuresLogo{
+        max-height: 3.5rem;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1042px){
+    .featureCard{
+        width:350px;
+    }
+}
+
+
+

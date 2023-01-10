@@ -1,0 +1,305 @@
+.projectDetailsContainer{
+    padding: 0 220px;
+    margin-bottom: 5%;
+}
+
+.projectImageContainer{
+    margin: 3% auto;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(116, 50, 255, 0.2);
+    border-radius: 21px;
+    padding: 1.3rem 1.3rem;
+    position: unset !important;
+
+}
+
+.image {
+    object-fit: contain;
+    width: 100% !important;
+    height: unset!important;
+  }
+
+.projectImg{
+    width: 32%;
+}
+
+.projectDetailContainer{
+    border-bottom: 1px solid #E0E3E7;
+}
+
+.detailbarContainer{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    height: 5rem;
+}
+
+.projectDesc{
+    width: 14%;
+    margin-right: 3%;
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+/* .projectDesc :hover{
+    border-bottom: 5px solid #7432FF;
+    border-radius: 100px 100px 0 0;
+} */
+
+.description{
+    width: 15%;
+    margin-right: 5%;
+}
+
+.projectDesc span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;    
+    text-align: center;    
+    color: #667280;
+}
+
+.projectDescContent{
+    margin: 4% 0 3%;
+}
+
+.projectDescContent h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;       
+}
+
+.projectDescContent p{
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.projectDescContent h4{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.projectImgContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.active{
+    border-bottom: 5px solid #7432FF;
+}
+
+/*/////////// FEATURES SECTION //////////*/
+
+.featuresDescContainer h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.blackFeatureCardContainer{
+   min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*/////////// SERVICES SECTION //////////*/
+
+
+.serviceCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    
+}
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1754px){
+    .projectDetailsContainer{
+        padding: 0 120px;
+    }
+
+    .description{
+        width: 18%;
+    }   
+}
+   
+ 
+   /* @media only screen and (max-width: 1654px){} */
+  
+
+@media only screen and (max-width: 1184px){
+    .description{
+        width: 22%;
+    }   
+}
+ 
+   @media only screen and (max-width: 1028px){
+    .projectImageContainer{
+        padding: 0.8rem;
+    }
+
+    .projectDetailsContainer{
+        padding: 0 70px;
+    }
+ 
+   }
+ 
+   @media only screen and (max-width: 894px){
+    .projectDetailsContainer{
+        padding: 0 20px;
+    }
+   }
+
+
+   @media only screen and (max-width: 812px){
+
+    .projectDesc{
+        width: 15%;
+        margin-right: 3%;
+    }
+
+    .description{
+        width: 26%;
+    }   
+}
+
+
+@media only screen and (max-width: 800px){
+
+    .projectDescContent p{
+        font-size: 12px;
+        line-height: 30px;
+    } 
+}
+
+
+@media only screen and (max-width: 760px){
+    .featuresDescContainer{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 739px){
+
+    .projectImageContainer{
+        border-radius: 10px;
+        padding: 0.4rem;
+    }
+
+    .detailbarContainer{
+        justify-content: center;
+    }
+
+    .blackFeatureCardContainer{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 700px){
+
+    .projectDesc{
+        width: 15%;
+        margin-right: 7%;
+        cursor: pointer;
+    }
+
+    .description{
+        width: 35%;
+        margin-right: 5%;
+    }   
+}
+
+
+@media only screen and (max-width: 600px){
+    
+    .projectDescContent p{
+        line-height: 20px;
+    } 
+    
+    .projectDesc{
+        width: 20%;
+    }
+
+    .description{
+        width: 50%;
+        margin-right: 5%;
+    }
+}
+
+
+@media only screen and (max-width: 528px){
+
+    .projectDesc{
+        margin-right: 9%;
+        cursor: pointer;
+    }
+
+    .description{
+        margin-right: 5%;
+    }   
+}
+
+@media only screen and (max-width: 428px){
+ 
+    .detailbarContainer{
+        height: 3rem;
+        padding-bottom: 0rem;
+    }
+
+    .projectDesc{
+        height: 2rem;
+    }
+
+    .projectDesc span{
+        font-size: 12px;
+        line-height: 20px;        
+    }
+}
+@media only screen and (max-width: 362px){
+    .projectImageContainer{
+        border-radius: 7px;
+        padding: 0.2rem;
+    }
+
+    .projectDescContent p{
+        line-height: 15px;
+    } 
+
+    .projectDesc{
+        width:50%;
+        margin-right: 12%;
+    }
+
+    .projectDesc span{
+        font-size: 10px;
+        line-height: 18px;        
+    }
+
+    .description{
+        width:50%;
+        margin-right: 5%;
+    }  
+}

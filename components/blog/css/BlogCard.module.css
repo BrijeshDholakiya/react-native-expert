@@ -1,0 +1,206 @@
+.blogCard{
+    max-width: 30%;
+    border-radius: 20px;
+    display: flex; 
+    flex: 0 0 33.33%;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+/* MAIN PAGE BLOG CARD CONTAINER */
+.mainBlogCard{
+    max-width: 30%;
+    border-radius: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    
+}
+/* //////////////////////////////// */
+
+.blogCardBody{
+    padding: 10px;
+}
+
+.blogImgContainer{
+    position: unset !important;
+}
+
+.image{
+    object-fit: contain;
+    width: 100% !important;
+    height: unset!important;
+}
+
+.blogFeatures {
+    margin: 1.5rem 0;
+}
+
+.blogFeatures span a{
+    background: #000000;
+    border-radius: 94px;
+    padding: 10px 15px;
+    margin-right: 0.5rem;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;       
+    color: #FFFFFF;
+}
+
+.blogCardTitle h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px; 
+    color: #000000;
+}
+
+.blogCardDesc p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.reactLogoWithDate{
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.rnExpertLogo{
+    width: auto;
+}
+.reactLogoWithDate span{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;      
+    color: #142032;    
+    opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 1372px){
+    .blogFeatures span a{
+        border-radius: 94px;
+        padding: 10px 10px;
+        font-size: 12px;
+        line-height: 10px;       
+    }
+    .reactLogoWithDate span{
+        font-size: 10px;
+        line-height: 25px;      
+    }
+}
+
+@media only screen and (max-width: 1277px){
+    .mainBlogCard{
+        max-width: 33%;
+        flex: 0 0 100%;
+        margin-bottom: 2rem;
+    }
+
+    .blogCardTitle h3{
+        font-size: 16px;
+        line-height: 22px; 
+    }
+    
+    .blogCardDesc p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 1102px){
+    .blogCard, .mainBlogCard{
+        max-width: 45%;
+        margin-bottom: 2rem;
+    }   
+  }
+
+  @media only screen and (max-width: 984px){
+    .blogCard, .mainBlogCard{
+        max-width: 47%;
+        border-radius: 20px;
+        display: flex; 
+        flex: 0 0 50%;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+    }   
+  }
+
+  @media only screen and (max-width: 600px){
+    .blogCard, .mainBlogCard{
+        max-width: 52%;
+        border-radius: 20px;
+        display: flex; 
+        flex: 0 0 50%;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 568px){
+    .blogCard{
+        max-width: 90%;
+        border-radius: 20px;
+        display: flex; 
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+        margin: 0 auto 10%;
+    }
+
+    .mainBlogCard{
+        max-width: 70%;
+        border-radius: 20px;
+        text-align: left;
+        display: flex;
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+        margin: 0 auto 5%;
+    }
+
+    
+    .blogCardTitle{
+        width: 100%;
+    }
+    
+    .blogCardDesc{
+        width: 100%;
+    }
+
+    .reactLogoWithDate span{
+        padding-right: 1rem;      
+    }
+}
+
+@media only screen and (max-width: 420px){
+     .mainBlogCard{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .blogCard{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 324px){
+    .blogCard{
+        max-width: 110%;
+    }
+
+    .blogCardBody{
+        padding: 0px;
+    }
+
+    .reactLogoWithDate span{
+        padding-right: 0rem;      
+    }
+}

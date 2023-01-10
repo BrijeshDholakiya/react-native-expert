@@ -1,0 +1,23 @@
+/* .blogCard{
+    width: 23%;
+    border-radius: 20px; 
+}
+
+.blogCardBody{
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 1146px){
+    .blogCard{
+        width: 45%;
+        margin-bottom: 2rem;
+    }  
+  }
+
+@media only screen and (max-width: 600px){
+    .blogCard{
+        width: 100%;
+        margin-bottom: 2rem;
+    } 
+  } */

@@ -1,0 +1,155 @@
+.servicesCard{
+    flex: 0 0 33.33%;
+    flex-wrap: wrap;
+    border: 1px solid #ffffff;
+    box-shadow: 5px 5px 5px 5px rgb(247, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 1.5rem 2rem;
+    max-width: 31%;
+    height: 50%;
+    background: #FFFFFF;
+    border-radius: 21px;
+    margin-bottom: 2rem;
+}
+
+
+.sCardbody{
+    width: 80%;
+}
+
+.serviceCardHeading{
+    height: 3rem;
+}
+
+.sCardbody h3{
+    font-weight: 600;
+    font-size: 22px;
+    color: #231D4F;
+}
+
+.sCardbody p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #9b99ac;
+}
+
+.serviceFeaturesContainer{
+    margin-top: 2rem;
+}
+
+.serviceFeatures{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0.5rem 0;
+}
+
+.serviceFeatures span{
+    text-decoration-line: none;
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    color: #9594a8;
+    margin-left: 0.8rem;
+    letter-spacing: 0.01em;
+}
+
+.sCardbody button{
+    background: #FF6D04;
+    border-radius: 24px;
+    padding: 12px;
+    width: 100%;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #FF6D04;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 1430px){
+    .serviceCardHeading{
+        height: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 1264px){
+    .servicesCard{
+        flex: 0 0 50%;
+        max-width: 46%;        
+    }
+
+    .serviceCardHeading{
+        height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 945px){
+    .serviceCardHeading{
+        height: 4.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 720px){
+    .servicesCard{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .serviceCardHeading{
+        height: 0rem;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 657px){
+    .serviceCardHeading{
+        height: 0rem;
+        padding-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 546px){
+    .serviceCardHeading{
+        height: 0rem;
+        padding-bottom: 15%;
+    }
+}
+
+
+@media only screen and (max-width: 411px){
+    .sCardbody{
+        width: 100%;
+    }
+
+    .servicesCard{
+        padding: 1.5rem 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 320px){
+    .serviceCardHeading{
+        height: 0rem;
+        padding-bottom: 30%;
+    }
+
+    .serviceDesc{
+        padding-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .serviceCardHeading{
+        height: 0rem;
+        padding-bottom: 35%;
+    }
+}

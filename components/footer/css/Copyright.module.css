@@ -1,0 +1,85 @@
+.copyrightContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 220px;
+  align-items: center;
+}
+
+.copyrightContainer span {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.designPrivacyContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.designPrivacyContainer span {
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.designPrivacyContainer span:hover {
+  color: #7432ff;
+}
+
+@media only screen and (max-width: 1754px) {
+  .copyrightContainer {
+    padding: 20px 120px;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  .copyrightContainer {
+    padding: 20px 70px;
+  }
+}
+
+@media only screen and (max-width: 894px) {
+  .copyrightContainer {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .copyrightContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .designCopyrightContainer {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1%;
+  }
+
+  .designPrivacyContainer {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .designPrivacyContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .innerPrivacyContainer {
+    width: 80%;
+  }
+
+  .designPrivacyContainer a {
+    display: block;
+  }
+
+  .designPrivacyContainer a li {
+    list-style-type: none;
+  }
+}
