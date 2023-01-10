@@ -3,7 +3,6 @@ import styles from "../../components/features/css/featureCardContainer.module.cs
 import FeaturesCardBlack from "../projects/FeaturesCardBlack";
 
 const FeatureTab = ({ features }) => {
-  console.log("features >>>>> ", features);
   return (
     <div className={classes.featuresDescContainer}>
       <h3>Features</h3>

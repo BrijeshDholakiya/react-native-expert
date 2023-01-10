@@ -1,10 +1,11 @@
+/* eslint-disable @next/next/link-passhref */
 import Link from "next/link";
 import Image from "next/image";
 import classes from "./css/BlogCard.module.css";
 
 const BlogCard = (props) => {
   return (
-    <Link href="/blog/ui-ux" className={classes.cardLinkContainer}>
+    <Link href="/" className={classes.cardLinkContainer}>
       <div className={classes.blogCard}>
         <div className={classes.blogCardBody}>
           <div className={classes.blogImgContainer}>
@@ -17,8 +18,8 @@ const BlogCard = (props) => {
           </div>
           <div className={classes.blogFeatures}>
             <span>
-              <a href="/#">{props.btn1}</a>
-              <a href="/#">{props.btn2}</a>
+              <Link href="/">{props.btn1}</Link>
+              <Link href="/">{props.btn2}</Link>
             </span>
           </div>
           <div className={classes.blogCardTitle}>

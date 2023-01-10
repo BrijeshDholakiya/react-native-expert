@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/link-passhref */
 import Image from "next/image";
 import Link from "next/link";
 import classes from "./css/ProjectCard.module.css";
@@ -7,7 +8,7 @@ const ProjectCard = (props) => {
 
   return (
     <Link href="/project/[slug]" as={"/project/" + props.slug}>
-      <a className={classes.projectCard}>
+      <div className={`${classes.projectCard} cp`}>
         <div className={classes.projectCardBody}>
           {/* **********************
                 PROJECT CARD IMAGE  
@@ -32,7 +33,7 @@ const ProjectCard = (props) => {
             </div>
           </div>
         </div>
-      </a>
+      </div>
     </Link>
   );
 };

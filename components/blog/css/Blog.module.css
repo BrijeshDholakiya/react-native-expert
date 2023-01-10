@@ -1,75 +1,67 @@
-.blogContainer{
-    background-color: #F8FDFF;
-    padding: 50px 220px 10px; 
+.blogContainer {
+  background-color: #f8fdff;
+  padding: 50px 220px 10px;
 }
 
-.slideBtnContainer button{
-    border: none;
-    background-color: transparent;
-    padding: 0.5rem 1rem;
-    margin-top: 0.5rem;
+.slideBtnContainer button {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
 }
 
-.blogTitle{
-    /* display: flex;
-    justify-content: space-between; */
-    /* height: 7rem; */
-    /* margin: auto 0; */
+.blogTitle {
+  text-align: center;
+}
+
+.blogTitle h2 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #142032;
+}
+
+.blogCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1754px) {
+  .blogContainer {
+    padding: 50px 120px 10px;
+  }
+}
+
+@media only screen and (max-width: 1277px) {
+  .blogCardsContainer {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1028px) {
+  .blogContainer {
+    padding: 50px 70px 10px;
+  }
+}
+
+@media only screen and (max-width: 894px) {
+  .blogContainer {
+    padding: 50px 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .blogCardsContainer {
     text-align: center;
+    justify-content: center;
+  }
 }
 
-.blogTitle h2{
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 40px;
-    text-transform: capitalize;
-    color: #142032;
+@media only screen and (max-width: 310px) {
+  .blogTitle h2 {
+    font-size: 38px;
+  }
 }
-
-.blogCardsContainer{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-
-@media only screen and (max-width: 1754px){
-    .blogContainer{
-        padding: 50px 120px 10px; 
-    }
-   }
-   
-   @media only screen and (max-width: 1277px){
-    .blogCardsContainer{
-        flex-wrap: wrap;
-    }
-  }
-@media only screen and (max-width: 1028px){
-    .blogContainer{
-        padding: 50px 70px 10px; 
-    }
-
-  }
-
-  @media only screen and (max-width: 894px){
-    .blogContainer{
-        padding: 50px 20px 10px; 
-    }
-  }
-
-
-  @media only screen and (max-width: 568px){
-    .blogCardsContainer{
-        text-align: center;
-        justify-content: center;
-    }
-  }
-
-
-  @media only screen and (max-width: 310px){
-    .blogTitle h2{
-        font-size: 38px;
-    }
-  }

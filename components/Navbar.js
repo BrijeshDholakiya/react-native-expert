@@ -31,7 +31,7 @@ const Navbar = () => {
 
       <nav className={classes.navContainer}>
         <div className={classes.navBrand}>
-          <Link href="/#">
+          <Link href="/">
             <Image src={Logo} alt="React Native Expert" />
           </Link>
         </div>

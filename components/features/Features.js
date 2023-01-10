@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import classes from "./css/Features.module.css";
 import feature from "../../public/images/features/features.svg";
@@ -8,25 +8,13 @@ import featureLeft from "../../public/images/features/designLeft.svg";
 import FeatureCardContainer from "./FeatureCardContainer";
 import ConnectForm from "../Form/ConnectForm";
 
-// import Modal from "../../components/Modal/Modal";
-// import Contact from "../Modal/contactUs/Contact";
-
 const Features = () => {
   const [isOpenForm, setIsOpenForm] = useState(false);
 
   const handleContactForm = () => {
     setIsOpenForm((isOpenForm) => !isOpenForm);
   };
-  // const [showModal, setShowModal] = useState(false);
 
-  // useEffect(() => {
-  //   if (showModal) {
-  //     document.body.style.overflow = "hidden";
-  //   }
-  //   return () => {
-  //     return (document.body.style.overflow = "unset");
-  //   };
-  // }, [showModal]);
   return (
     <>
       {isOpenForm ? (
@@ -37,9 +25,6 @@ const Features = () => {
       ) : (
         ""
       )}
-      {/* <Modal onClose={() => setShowModal(false)} show={showModal}>
-        <Contact />
-      </Modal> */}
       <div className={classes.featureContainer}>
         {/* **********************
               FEATURE CONTENT

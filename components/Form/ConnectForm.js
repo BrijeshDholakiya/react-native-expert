@@ -154,12 +154,7 @@ function ConnectForm(props) {
           </div>
           <div>
             <Link href="https://api.whatsapp.com/send?phone=+91">
-              <span
-              // className="cp link_font"
-              // style={{ color: "#000" }}
-              >
-                +91 7990369008
-              </span>
+              <span>+91 7990369008</span>
             </Link>
           </div>
         </div>
