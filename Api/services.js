@@ -1,4 +1,4 @@
-import Axios from "axios";
+/* import Axios from "axios";
 import { SERVICES_URL } from "../constants/URL";
 
 export async function getServiceData() {
@@ -13,4 +13,4 @@ export async function getServiceData() {
         );
       });
   });
-}
+} */

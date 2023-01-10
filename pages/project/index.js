@@ -5,19 +5,19 @@ import Footer from "../../components/footer/Footer";
 import Layout from "../../components/Layout";
 import { projectData } from "../../constants/ProjectCardData";
 
-import { getProjectCardData } from "../../Api/projects";
+// import { getProjectCardData } from "../../Api/projects";
 
-export async function getStaticProps() {
-  const allProjectData = await getProjectCardData();
-  const projectData = JSON.stringify(allProjectData);
+// export async function getStaticProps() {
+//   const allProjectData = await getProjectCardData();
+//   const projectData = JSON.stringify(allProjectData);
 
-  return {
-    props: {
-      projectData,
-    },
-    revalidate: 10,
-  };
-}
+//   return {
+//     props: {
+//       projectData,
+//     },
+//     revalidate: 10,
+//   };
+// }
 
 const ProjectSection = () => {
   return (

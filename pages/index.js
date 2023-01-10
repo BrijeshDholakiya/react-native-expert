@@ -7,8 +7,8 @@ import Services from "../components/services/Services";
 import Projects from "../components/projects/Projects";
 import Features from "../components/features/Features";
 import Footer from "../components/footer/Footer";
-import { getServiceData } from "../Api/services";
-import { getProjectCardData } from "../Api/projects";
+// import { getServiceData } from "../Api/services";
+// import { getProjectCardData } from "../Api/projects";
 import { projectData } from "../constants/ProjectCardData";
 import { serviceData } from "../constants/serviceCardData";
 
